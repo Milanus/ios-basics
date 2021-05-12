@@ -11,7 +11,7 @@ making custom UIView
  }()
 ```
 
-and set it in
+and set it init method 
 
 ```
  override init(frame:CGRect) {
@@ -20,7 +20,7 @@ and set it in
 }
 ```
 
-constraints 
+constraints best aproach is too add them in init method after view was add to parent
 
 ```
  fileprivate func setupContentViewConstraints() {
